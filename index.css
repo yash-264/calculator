@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}.card{
+    height: 440px;
+    width: 305px;
+    border: solid black 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card button {
+    height: 50px;
+    width: 50px;
+    color: blue;
+    margin: 8px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 25px;
+
+}
+.card input{
+    height:90px;
+    width: 270px;
+    font-size: 30px;
+    padding: 10px; 
+
+}
+.equal{
+    height: 50px;
+    width: 100px;
+    color: blue;
+    margin: 8px;
+    padding: 5px;
+    cursor: pointer;
+}
+.container h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
